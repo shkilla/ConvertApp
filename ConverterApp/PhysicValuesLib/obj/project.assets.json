@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v6.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\EzPc\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Download\\ConverterApp-main\\ConverterApp-main\\ConverterApp\\PhysicValuesLib\\PhysicValuesLib.csproj",
+      "projectName": "PhysicValuesLib",
+      "projectPath": "F:\\Download\\ConverterApp-main\\ConverterApp-main\\ConverterApp\\PhysicValuesLib\\PhysicValuesLib.csproj",
+      "packagesPath": "C:\\Users\\EzPc\\.nuget\\packages\\",
+      "outputPath": "F:\\Download\\ConverterApp-main\\ConverterApp-main\\ConverterApp\\PhysicValuesLib\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\EzPc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net60"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net60": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net60": {}
+    }
+  }
+}

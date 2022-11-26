@@ -1,0 +1,77 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v6.0,Profile=windows": {
+      "PhysicValuesLib/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/PhysicValuesLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhysicValuesLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhysicValuesLib/1.0.0": {
+      "type": "project",
+      "path": "../PhysicValuesLib/PhysicValuesLib.csproj",
+      "msbuildProject": "../PhysicValuesLib/PhysicValuesLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v6.0,Profile=windows": [
+      "PhysicValuesLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\EzPc\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Download\\ConverterApp-main\\ConverterApp-main\\ConverterApp\\WindowsAPI\\WindowsAPI.csproj",
+      "projectName": "WindowsAPI",
+      "projectPath": "F:\\Download\\ConverterApp-main\\ConverterApp-main\\ConverterApp\\WindowsAPI\\WindowsAPI.csproj",
+      "packagesPath": "C:\\Users\\EzPc\\.nuget\\packages\\",
+      "outputPath": "F:\\Download\\ConverterApp-main\\ConverterApp-main\\ConverterApp\\WindowsAPI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\EzPc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net60-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net60-windows": {
+          "projectReferences": {
+            "F:\\Download\\ConverterApp-main\\ConverterApp-main\\ConverterApp\\PhysicValuesLib\\PhysicValuesLib.csproj": {
+              "projectPath": "F:\\Download\\ConverterApp-main\\ConverterApp-main\\ConverterApp\\PhysicValuesLib\\PhysicValuesLib.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net60-windows": {}
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект PhysicValuesLib несовместим с net60-windows (.NETFramework,Version=v6.0,Profile=windows). Проект PhysicValuesLib поддерживает: net60 (.NETFramework,Version=v6.0)",
+      "libraryId": "PhysicValuesLib",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0,Profile=windows"
+      ]
+    }
+  ]
+}
